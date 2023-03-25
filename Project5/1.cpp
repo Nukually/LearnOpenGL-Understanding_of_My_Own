@@ -1,6 +1,9 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include<iostream>
+//openGL可以理解为一些API但实际上是一些不包含实现的规范，OpenGL程序本身是一个状态（或者说上下文context），形式上像一个结构体
+//我们编程就是去调整这个状态去做渲染工作
+//工作流：创建对象-》id保存其引用-》绑定这个对象到上下文目标位置-》通过操作对象来设置目标位置的一些选项，同时这个对象也会记录选项信息-》解绑对象与重新绑定
 //你好三角形
 //一般采用 glad 获取一堆 glxxx 函数的函数指针。用 glfw 管理操作系统的窗口管理器给到的 framebuffer，然后OpenGL 在上面画画
 void processInput(GLFWwindow* window)
