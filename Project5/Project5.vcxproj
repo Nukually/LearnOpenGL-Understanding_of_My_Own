@@ -19,11 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="3.cpp" />
+    <ClCompile Include="4.cpp" />
     <ClCompile Include="glad.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader_s.h" />
+<<<<<<< Updated upstream
+=======
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="camera.h" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
