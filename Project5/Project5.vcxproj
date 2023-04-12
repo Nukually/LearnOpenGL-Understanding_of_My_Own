@@ -19,11 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="3.cpp" />
+    <ClCompile Include="4.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="源.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="camera.h" />
     <ClInclude Include="shader_s.h" />
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
