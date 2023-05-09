@@ -91,8 +91,6 @@ extern "C" {
  #include <GL/glx.h>
 #elif defined(GLFW_EXPOSE_NATIVE_EGL)
  #include <EGL/egl.h>
-#else
- #error "No context API specified"
 #endif
 
 
