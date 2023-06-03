@@ -1,4 +1,3 @@
 # LearnOpenGL-Understanding_of_My_Own
-现在可以渲染一个三月七
-目前只有lambert模型，说白了就是贴一张漫反射贴图上去，还没真正渲染呢
-之后会加入PBR，IBL，GI，Bloom等各种有意思的东西进去
+三月七+PCSS
+IBL
